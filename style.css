@@ -1,0 +1,17 @@
+.textArea{
+    height: 10vh;
+    width: 30rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+
+    
+}
+.translateBtn{
+    position: absolute;
+    top:35vh;
+    left: 2rem;
+    
+    
+  
+}
