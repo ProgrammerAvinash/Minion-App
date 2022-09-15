@@ -1,4 +1,8 @@
-.textArea{
+.header{
+    text-align: center;
+    padding-bottom: 10vh;
+}
+#textAreaToTranslate{
     height: 10vh;
     width: 30rem;
     padding: 1rem;
@@ -7,11 +11,22 @@
 
     
 }
-.translateBtn{
+#translateBtn{
     position: absolute;
-    top:35vh;
-    left: 2rem;
-    
+     
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+
     
   
+}
+
+.textAreaTranslated{
+    height: 10vh;
+    width: 30rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+
 }
