@@ -1,32 +1,60 @@
-.header{
-    text-align: center;
-    padding-bottom: 10vh;
+body {
+  background-image: url("https://i.pinimg.com/originals/c8/fd/13/c8fd1366cccafaccdc0defc249ab0df2.jpg");
+  background-repeat: repeat;
+  background-position: right;
+  background-size: 10%;
 }
-#textAreaToTranslate{
-    height: 10vh;
-    width: 30rem;
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 10px;
-
-    
+img {
+  position: absolute;
+  right: 10%;
+  height: 100px;
+  width: 100px;
+  top: 20px;
 }
-#translateBtn{
-    position: absolute;
-     
-    justify-content: center;
-    padding: 5px;
-    border-radius: 10px;
-
-    
-  
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TranslateArea {
+  background: yellow;
+  position: absolute;
+  padding: 3vh;
+  top: 30%;
+}
+.header {
+  text-align: center;
+  padding: 3vh;
+  border: 10px yellow;
+  background-color: yellow;
 }
 
-.textAreaTranslated{
-    height: 10vh;
-    width: 30rem;
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 10px;
+#textAreaToTranslate {
+  height: 10vh;
+  width: 30rem;
+  padding: 1rem;
 
+  margin: 1rem;
+  border-radius: 10px;
+  border: 1px black solid;
+}
+.outputBoxText {
+  display: flexbox;
+  margin-left: 50px;
+}
+
+#translateBtn {
+  justify-content: center;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.textAreaTranslated {
+  height: 10vh;
+  width: 30rem;
+  padding: 1rem;
+  background: white;
+  margin: 1rem;
+  border-radius: 10px;
+  border: 1px black solid;
 }
